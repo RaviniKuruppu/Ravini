@@ -5,8 +5,8 @@ function About() {
   return (
     <section id="about" className="about">
       <h2>About Me</h2>
-      <p>Hello! I'm [Your Name], a [Your Profession/Role].</p>
-      <p>I specialize in [your skills or area of expertise].</p>
+      <p>Hello! I'm  Ravini Kuruppu, an undergraduate.</p>
+      <p>I specialize in Computer Science and Engineering.</p>
     </section>
   );
 }

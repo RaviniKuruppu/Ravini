@@ -4,7 +4,6 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <h1>Your Name</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -12,6 +11,10 @@ function Header() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <h1>RAVINI KURUPPU</h1>
+      <h2>Full Stack Developer</h2>
+      <h2>Computer Science and Engineering</h2>
+      <h3>University of Moratuwa</h3>
     </header>
   );
 }
