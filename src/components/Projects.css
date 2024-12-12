@@ -1,0 +1,11 @@
+.projects {
+    background: #f9f9f9;
+  }
+  
+  .project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
