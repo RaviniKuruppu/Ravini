@@ -1,8 +1,7 @@
 .header {
-    background: #333;
+    background: black;
     color: #fff;
     padding: 10px 20px;
-    position: sticky;
     top: 0;
   }
   
@@ -16,6 +15,7 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 100px; /* Add gap for spacing between items */
   }
   
   .header li {
@@ -30,4 +30,37 @@
   .header a:hover {
     text-decoration: underline;
   }
+
+  
+
+  /* Set the background color for the navigation bar */
+.nav {
+  display: flex;              /* Use Flexbox for layout */
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  background-color: rgba(51, 51, 51, 0.5);     /* Background color for the navbar */
+  padding: 10px 20px;         /* Add some padding for spacing */
+  height: 60px; 
+   
+  
+}
+
+
+/* Style the links */
+.navbar ul li a {
+  text-decoration: none;      /* Remove underline by default */
+  color: white;               /* White text color */
+  padding: 10px 15px;         /* Add padding around links */
+  border-radius: 5px;         /* Slightly rounded corners */
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav ul li a:hover {
+  
+  text-decoration: none;      /* Ensure no underline on hover */
+  color: #ddd; 
+}
+
+
   
