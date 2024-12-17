@@ -31,6 +31,24 @@
     text-decoration: underline;
   }
 
+  /* Flexbox container for text and image */
+.header-content {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between text and image */
+  gap: 20px; /* Add some space between text and image */
+  margin-top: 20px;
+}
+
+.header-text {
+  flex: 1; /* Allow text to take available space */
+}
+
+.header-image {
+  width: 200px; /* Adjust image size as needed */
+  height: auto;
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
   
 
   /* Set the background color for the navigation bar */
