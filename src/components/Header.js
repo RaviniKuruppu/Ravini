@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css';
+import RaviniImage from '../images/Ravini2.png';
+
 
 function Header() {
   return (
@@ -14,8 +16,17 @@ function Header() {
         </ul>
       </nav>
       <br></br>
-      <h1>RAVINI KURUPPU</h1>
-      <h2>Full Stack Developer</h2>
+      {/* Container for text and image */}
+      <div className="header-content">
+      <img src={RaviniImage} alt="Ravini Kuruppu" className="header-image" />
+        <div className="header-text">
+          <h1>RAVINI KURUPPU</h1>
+          <h2>I'm a Full Stack Developer</h2>
+          <h3>University of Moratuwa</h3>
+        </div>
+        
+      </div>
+
     </header>
   );
 }
