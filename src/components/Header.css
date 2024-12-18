@@ -1,8 +1,9 @@
 .header {
-    background: black;
+    background: #020817;
     color: #fff;
     padding: 10px 20px;
     top: 0;
+    height: 800px;
   }
   
   .header h1 {

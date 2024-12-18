@@ -9,9 +9,9 @@ function Header() {
       <nav className='nav' >
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Experience</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#projects">Technologies</a></li>
+          <li><a href="#technologies">Technologies</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -22,7 +22,6 @@ function Header() {
         <div className="header-text">
           <h1>RAVINI KURUPPU</h1>
           <h2>I'm a Full Stack Developer</h2>
-          <h3>University of Moratuwa</h3>
         </div>
         
       </div>
