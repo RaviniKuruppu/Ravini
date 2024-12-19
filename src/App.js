@@ -18,8 +18,8 @@ function App() {
       minHeight: '100vh',
     }}>
       <Header />
-      <Experience/>
       <About />
+      <Experience/>
       <Projects />
       <Technologies/>
       <Contact />

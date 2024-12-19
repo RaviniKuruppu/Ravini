@@ -19,6 +19,7 @@ function Projects() {
           </div>
         ))}
       </div>
+      
     </section>
   );
 }

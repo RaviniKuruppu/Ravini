@@ -6,9 +6,35 @@
   }
   
   .header h1 {
-    margin: 0;
+    font-size: 4rem; /* Make the text large */
+    text-transform: uppercase; /* Optional: Make text uppercase */
+    letter-spacing: 5px; /* Add spacing between letters */
+    color: #fff; /* White color for the text */
+    font-weight: bolder;
+    animation: fadeInMove 2s ease-in-out; /* Apply animation */
   }
   
+  /* Keyframes for animation */
+  @keyframes fadeInMove {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); /* Start slightly above */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at the original position */
+    }
+  }
+  .header h2 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; /* Set the font to Roboto (you can choose another font) */
+    font-size: 1.5rem; /* Adjust the font size */
+    color: #F5F5DC; /* Set the text color (yellowish tone) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for depth */
+    margin-top: 10px; /* Add some spacing from the <h1> above */
+  }
+  
+
   .header ul {
     list-style: none;
     margin: 0;
@@ -31,24 +57,26 @@
     text-decoration: underline;
   }
 
-  /* Flexbox container for text and image */
-.header-content {
-  display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: space-between; /* Space between text and image */
-  gap: 20px; /* Add some space between text and image */
-  margin-top: 20px;
-}
-
-.header-text {
-  flex: 1; /* Allow text to take available space */
-}
-
-.header-image {
-  width: 200px; /* Adjust image size as needed */
-  height: auto;
-  border-radius: 10px; /* Optional: Add rounded corners */
-}
+  .header-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space between text and image */
+    gap: 20px; /* Add some space between text and image */
+    margin-top: 20px;
+    padding-right: 50px; /* Push content inside slightly */
+  }
+  
+  .header-text {
+    flex: 1; /* Allow text to take available space */
+  }
+  
+  .header-image {
+    width: 400px; /* Make the image larger */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-left: 100px; /* Push the image to the right */
+    animation: fadeInMove 2s ease-in-out; /* Apply animation */
+  }
   
 
   /* Set the background color for the navigation bar */
@@ -80,5 +108,23 @@
   color: #ddd; 
 }
 
+.button-90 {
+  margin-top: 50px;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #878692;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
 
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
   

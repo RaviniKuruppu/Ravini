@@ -21,10 +21,11 @@ function Header() {
       <img src={RaviniImage} alt="Ravini Kuruppu" className="header-image" />
         <div className="header-text">
           <h1>RAVINI KURUPPU</h1>
-          <h2>I'm a Full Stack Developer</h2>
-        </div>
-        
+          <h2>Computer Science and Engineering Undergraduate</h2>
+          <button class="button-90" >Download CV</button>
+        </div> 
       </div>
+      
 
     </header>
   );
