@@ -23,10 +23,11 @@ function Header() {
       <img src={RaviniImage} alt="Ravini Kuruppu" className="header-image" />
         <div className="header-text">
           <h1>RAVINI KURUPPU</h1>
-          <h2>Computer Science and Engineering Undergraduate</h2>
+          <h2>I'M a Full Stack Developer</h2>
+          
           <button class="button-90" >Download CV</button>
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/ravini-kuruppu/" target="_blank" rel="noopener noreferrer">
+            <a href="https://lk.linkedin.com/in/ravini-kuruppu" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
             <a href="https://github.com/RaviniKuruppu" target="_blank" rel="noopener noreferrer">
