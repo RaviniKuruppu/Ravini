@@ -127,4 +127,27 @@
 
   cursor: pointer;
 }
+
+
+/* Styling the icon container */
+.social-icons {
+  display: flex; /* Arrange icons in a row */
+  justify-content: center; /* Center them horizontally */
+  align-items: center; /* Align vertically */
+  gap: 30px; /* Space between icons */
+  margin-top: 40px; /* Add spacing from the content above */
+}
+
+/* Style for the icons */
+.social-icons a {
+  font-size: 3rem; /* Make icons large */
+  color: #fff; /* Set default icon color */
+  transition: transform 0.3s ease, color 0.3s ease; /* Add hover effect */
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+  color: #00acee; /* Change color on hover */
+}
+
   
