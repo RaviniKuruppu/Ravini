@@ -1,4 +1,27 @@
 .about {
     color: #fff;
+    margin-left: 100px; /* Add some spacing from the left edge */
+  }
+
+
+  .about h2 {
+    font-size: 4rem; /* Make the text large */
+    text-align: left; /* Align the text to the left */
+    font-weight: bold; /* Optional: Make the text bold */
+    color: #fff; /* Adjust color as needed */
+    margin-bottom: 50px;
+  }
+  
+  .about p {
+    font-size: 1.5rem; /* Adjust the font size of the paragraphs */
+    text-align: left; /* Align the text to the left */
+    margin-left: 50px; /* Align the paragraph with the heading */
+    color: #fff; /* Adjust color as needed */
+    line-height: 1.8; /* Increase line spacing for readability */
+  }
+
+  .paragraph{
+    font-style: italic;
+    font-weight: bold;
   }
   
