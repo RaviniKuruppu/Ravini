@@ -1,0 +1,11 @@
+.technologies{
+    margin-left: 100px; /* Add some spacing from the left edge */
+}
+
+.technologies h2 {
+    font-size: 4rem; /* Make the text large */
+    text-align: left; /* Align the text to the left */
+    font-weight: bold; /* Optional: Make the text bold */
+    color: #fff; /* Adjust color as needed */
+    margin-bottom: 50px;
+  }

@@ -4,7 +4,7 @@ import './Technologies.css';
 function Technologies() {
     return (
         <section id="technologies" className="technologies">
-        <h2>Technologiess</h2>
+        <h2>Technologies</h2>
         </section>
     );
   }

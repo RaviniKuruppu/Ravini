@@ -1,5 +1,7 @@
 .contact {
   color: #fff;
+  
+  background-color: #9e979744;
   }
   
   .contact a {
@@ -9,5 +11,15 @@
   
   .contact a:hover {
     text-decoration: underline;
+  }
+
+  .contact h2 {
+    margin-left: 100px; /* Add some spacing from the left edge */
+    font-size: 3.5rem; /* Make the text large */
+    text-align: left; /* Align the text to the left */
+    font-weight: bold; /* Optional: Make the text bold */
+    /* color: #fff;  */
+    color: #ffd700;
+    margin-bottom: 50px;
   }
   
