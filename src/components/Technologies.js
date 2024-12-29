@@ -1,27 +1,50 @@
 import React from "react";
 import "./Technologies.css";
-import BoardPac_logo from "../images/BoardPac.PNG";
+// Import all logos
+import Java_logo from "../images/technologies/java.png";
+import Python_logo from "../images/technologies/python.png";
+import CSharp_logo from "../images/technologies/c-sharp.png";
+import Cpp_logo from "../images/technologies/c.png";
+import JavaScript_logo from "../images/technologies/js.png";
+import TypeScript_logo from "../images/technologies/ts.png";
+import Dart_logo from "../images/technologies/dart.png";
+import HTML5_logo from "../images/technologies/html.png";
+import CSS3_logo from "../images/technologies/css.png";
+import Flutter_logo from "../images/technologies/flutter.png";
+import Postman_logo from "../images/technologies/postman.png";
+import NodeJS_logo from "../images/technologies/node.png";
+import Angular_logo from "../images/technologies/angular.png";
+import React_logo from "../images/technologies/react.png";
+import DotNet_logo from "../images/technologies/netcore.png";
+import MySQL_logo from "../images/technologies/mysql.png";
+import PostgreSQL_logo from "../images/technologies/postgresql.svg";
+import AWS_logo from "../images/technologies/aws.png";
+import GitHub_logo from "../images/technologies/github.png";
+import Boostrap_logo from "../images/technologies/bootstrap.png";
+//import windows_logo from "../images/technologies/windows.png";
 
 const technologies = [
-  { name: "Java", src: BoardPac_logo },
-  { name: "Python", src: BoardPac_logo },
-  { name: "C#", src: "path_to_csharp_logo" },
-    { name: "C++", src: "path_to_cpp_logo" },
-    { name: "JavaScript", src: "path_to_javascript_logo" },
-    { name: "TypeScript", src: "path_to_typescript_logo" },
-    { name: "Dart", src: "path_to_dart_logo" },
-    { name: "HTML5", src: "path_to_html5_logo" },
-    { name: "CSS3", src: "path_to_css3_logo" },
-    { name: "Flutter", src: "path_to_flutter_logo" },
-    { name: "Windows", src: "path_to_windows_logo" },
-    { name: "Node.js", src: "path_to_nodejs_logo" },
-    { name: "Angular", src: "path_to_angular_logo" },
-    { name: "React", src: "path_to_react_logo" },
-    { name: ".NET Core", src: "path_to_dotnet_logo" },
-    { name: "MySQL", src: "path_to_mysql_logo" },
-    { name: "PostgreSQL", src: "path_to_postgresql_logo" },
-    { name: "AWS", src: "path_to_aws_logo" },
-    { name: "GitHub", src: "path_to_github_logo" },
+  { name: "Java", src: Java_logo },
+  { name: "Python", src: Python_logo },
+  { name: "C#", src: CSharp_logo },
+  { name: "C++", src: Cpp_logo },
+  { name: "JavaScript", src: JavaScript_logo },
+  { name: "TypeScript", src: TypeScript_logo },
+  { name: "Dart", src: Dart_logo },
+  { name: "HTML5", src: HTML5_logo },
+  { name: "CSS3", src: CSS3_logo },
+  { name: "Flutter", src: Flutter_logo },
+  { name: "Postman", src: Postman_logo },
+  { name: "Node.js", src: NodeJS_logo },
+  { name: "Angular", src: Angular_logo },
+  { name: "React", src: React_logo },
+  { name: ".NET Core", src: DotNet_logo },
+  { name: "MySQL", src: MySQL_logo },
+  { name: "PostgreSQL", src: PostgreSQL_logo },
+  { name: "AWS", src: AWS_logo },
+  { name: "GitHub", src: GitHub_logo },
+  { name: "Boostrap", src: Boostrap_logo },
+//   { name: "windows", src: windows_logo },
 ];
 
 function Technologies() {
