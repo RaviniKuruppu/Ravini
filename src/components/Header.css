@@ -11,7 +11,7 @@
     letter-spacing: 5px; /* Add spacing between letters */
     color: #fff; /* White color for the text */
     font-weight: bolder;
-    animation: fadeInMove 2s ease-in-out; /* Apply animation */
+    /*animation: fadeInMove 2s ease-in-out;  Apply animation */
     /*text-shadow: 4px 4px 4px rgba(191, 187, 187, 0.5);  Optional: Add a shadow for depth */
   }
   

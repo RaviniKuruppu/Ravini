@@ -14,7 +14,7 @@ function About() {
 
       <p>I aim to leverage my industrial placements to expand my expertise, sharpen my skills, and contribute meaningfully to societal advancement through the transformative power of technology.</p> */}
 
-      <p className='paragraph'>Areas of Interest: Machine Learning, Data Science, Mathematics, Statistics</p>
+      <p className='paragraph'>Areas of Interest: Software Engineering, Web Development, Mobile App Development, Mathematics</p>
     </section>
   );
 }
