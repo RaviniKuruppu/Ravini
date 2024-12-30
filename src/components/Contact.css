@@ -58,8 +58,8 @@
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin: 20px 0;
+    gap: 45px;
+    margin: 50px 0;
 }
 
 .social-icons i {
