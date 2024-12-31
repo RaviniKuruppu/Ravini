@@ -13,12 +13,17 @@ function Experience() {
                         <img src={moratuwa_logo} alt="Moratuwa Logo" />
                     </div>
                     <div className="timeline-content">
-                        <h3>BSc Engineering - University of Moratuwa (CSE Department)</h3>
+                        <h3>University of Moratuwa, Katubedda, Sri Lanka</h3>
                         <p>
-                            B.Sc Engineering with specialization in Computer Science and Engineering<br />
+                        B.Sc. Engineering (Hons)<br />
+                        Specialization: Computer Science and Engineering<br />
+                        Stream: CSE Main Stream <br/>
+                        Software Engineering, Systems Engineering, and Network Engineering
+                            {/* B.Sc Engineering with specialization in Computer Science and Engineering<br />
+
                             GPA: 3.4/4.00<br />
                             Earned placement in the Dean's List thrice<br />
-                            Involved in maintenance of the CSE Department website
+                            Involved in maintenance of the CSE Department website */}
                         </p>
                     </div>
                 </div>

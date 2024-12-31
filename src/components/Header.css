@@ -94,9 +94,9 @@
 
 
 /* Style the links */
-.navbar ul li a {
+.nav ul li a {
   text-decoration: none;      /* Remove underline by default */
-  color: white;               /* White text color */
+  color: #fff;               /* White text color */
   padding: 10px 15px;         /* Add padding around links */
   border-radius: 5px;         /* Slightly rounded corners */
   transition: color 0.3s ease;
@@ -106,7 +106,7 @@
 .nav ul li a:hover {
   
   text-decoration: none;      /* Ensure no underline on hover */
-  color: #ddd; 
+  color: #ffd700; 
 }
 
 .button-90 {
