@@ -35,9 +35,9 @@ function Experience() {
                     <div className="timeline-content">
                         <h3>Intern - Software Engineer -BoardPAC</h3>
                         <p>
-                            Member of the Identity and Access Management team.<br />
-                            Developed JavaScript SDKs to integrate authentication.<br />
-                            Technologies: Identity Server, Asgardeo, OAuth, JavaScript, TypeScript, React, Ballerina.
+                        Actively involved in the development of the Ronde project and Partner engagement platform.<br />
+                        Worked on both frontend and backend Developments.<br />
+                        Technologies: Identity Server, Angular,  Asp.Net Core, Flutter, PostgreSQL.
                         </p>
                     </div>
                 </div>

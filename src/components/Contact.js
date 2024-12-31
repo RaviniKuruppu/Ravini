@@ -8,22 +8,30 @@ function Contact() {
             <div className="contact-details">
                 <div className="contact-item">
                     <i className="fas fa-envelope"></i>
-                    <span>ivandan@email.com</span>
+                    <span>ravinikuruppu@email.com</span>
                 </div>
                 <div className="contact-item">
                     <i className="fas fa-phone-alt"></i>
-                    <span>(201) 555-0124</span>
+                    <span>(+94) 714706690</span>
                 </div>
                 <div className="contact-item">
                     <i className="fas fa-map-marker-alt"></i>
-                    <span>Toledo, United States</span>
+                    <span>Panadura, Sri Lanka</span>
                 </div>
             </div>
             <div className="social-icons">
-                <i className="fab fa-facebook"></i>
-                <i className="fab fa-twitter"></i>
+            <a href="https://github.com/RaviniKuruppu" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github"></i>
+            </a>
+            <a href="https://medium.com/@ravinikuruppu" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-medium"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ravini-kuruppu" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://wa.me/+94714706690" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-whatsapp"></i>
+            </a>
             </div>
             <p className="footer-text">“Thanks for Scrolling”</p>
 
