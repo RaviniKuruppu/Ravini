@@ -13,10 +13,10 @@ function Projects() {
         <div className="project-card">
           <img src={busArrivalImg} alt="Bus Arrival Time Prediction" className="project-image" />
           <div className="project-content">
-            <h3>Bus Arrival Time Prediction</h3>
-            <p>A Data Science and Engineering project which uses machine learning concepts for bus arrival time prediction under heterogeneous traffic conditions.</p>
-            <p><strong>Contribution:</strong> Machine Learning Models</p>
-            <p><strong>Languages:</strong> Python</p>
+            <h3>Brand Visual Registration and Lookup System | Final year project </h3>
+            <p>Web Application| Machine learning | Image recognition| Vector graphics</p>
+            <p><strong>Technologies:</strong> Python, Milvus Vector Database, React.js</p>
+            <p>Develop a brand visual registration system with an API for accurate lookup, capable of distinguishing subtle differences between similar visuals, supported by an end-to-end SVG pipeline.</p>
           </div>
         </div>
 
@@ -24,10 +24,11 @@ function Projects() {
         <div className="project-card">
           <img src={rpalInterpreterImg} alt="RPAL Interpreter" className="project-image" />
           <div className="project-content">
-            <h3>RPAL Interpreter</h3>
-            <p>An Interpreter for the functional language RPAL consisting of a scanner, parser, and a CSE machine. Implemented as a group assignment under CS3513 - Programming Languages.</p>
-            <p><strong>Contribution:</strong> Parser</p>
-            <p><strong>Languages:</strong> Java</p>
+            <h3>Data privacy MIS for child protection authority</h3>
+            <p>Web and mobile application | CI/CD | Microservice | Cloud technology</p>
+            <p><strong>Technologies:</strong> React JS, NodeJS, Express, Postgres SQL, AWS Blob, RabbitMQ, Docker, Flutter</p>
+            <p>This is an application developed for child protection authority to protect children's data while allowing authorized persons to access and handle it.</p>
+            <p><strong>Contribution:</strong> Frontend service, Profile management service</p>
           </div>
         </div>
 
@@ -35,15 +36,37 @@ function Projects() {
         <div className="project-card">
           <img src={bankTransactionImg} alt="Bank Transaction Management System" className="project-image" />
           <div className="project-content">
-            <h3>Bank Transaction Management System</h3>
-            <p>A bank transaction management system with a web application implemented as a group project under CS3043 - Database systems.</p>
-            <p><strong>Contribution:</strong> Database, Backend</p>
-            <p><strong>Languages:</strong> JavaScript, SQL</p>
-            <p><strong>Frameworks:</strong> Node, React.js</p>
-            <p><strong>Database:</strong> MySQL</p>
+            <h3>Event Management System| Individual Project</h3>
+            <p>Web and mobile application | Three-tier architecture</p>
+            <p><strong>Technologies:</strong> Flutter, Javascript, NodeJS, Express, MySQL</p>
+            <p>The Event Management System is a centralized platform that improves event organization, scheduling, communication, registration, and monitoring with enhanced user engagement and real-time notifications.</p>
           </div>
         </div>
       </div>
+
+      {/* Project 4 */}
+        <div className="project-card">
+          <img src={rpalInterpreterImg} alt="RPAL Interpreter" className="project-image" />
+          <div className="project-content">
+            <h3>Student Management System| Individual Project</h3>
+            <p>Web application | Clean Architecture| SOLID Principles | EF Core Code-First Approach| Design Patterns</p>
+            <p><strong>Technologies:</strong> Angular, Asp .Net core, PostgreSQL</p>
+            <p>This student management application, built with Angular for the user interface and ASP.NET Core for server-side logic, is designed to explore tech stacks, clean architecture, and design patterns.</p>
+          </div>
+        </div>
+      
+      {/* Project 5 */}
+      <div className="project-card">
+          <img src={rpalInterpreterImg} alt="RPAL Interpreter" className="project-image" />
+          <div className="project-content">
+            <h3>Human Resource Management System| Group Project</h3>
+            <p>Web application</p>
+            <p><strong>Technologies:</strong> HTML, CSS, Javascript, NodeJS, Express, MySQL </p>
+            <p>A web-based human resource management system that includes a personal information management module, a leave management module, and a reporting module.</p>
+            <p><strong>Contribution:</strong> Front-end development, Database</p>
+          </div>
+        </div>
+
     </section>
   );
 }
