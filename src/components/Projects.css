@@ -91,10 +91,17 @@
 
 .custom-button .arrow-icon {
   margin-left: 10px; /* Add space between text and arrow */
-  font-size: 1.2rem; /* Adjust arrow size */
+  width: 1.4rem; /* Increase arrow size */
+  height: 1.4rem;
   transition: transform 0.3s ease; /* Smooth transition for hover */
+  stroke-width: 3; /* Make the arrow bolder */
 }
 
 .custom-button:hover .arrow-icon {
   transform: translateX(5px); /* Move the arrow slightly to the right on hover */
+}
+
+.custom-button i {
+  margin-left: 10px; /* Space between text and icon */
+  font-size: 1.2rem; /* Adjust icon size */
 }

@@ -82,9 +82,18 @@ function Projects() {
           </div>
         </div>
 
+       
+
         <a href="https://github.com/RaviniKuruppu" target="_blank" rel="noopener noreferrer">
-          <button class="custom-button">Check out my Github Repositories for more projects <span class="arrow-icon">→</span></button>
+          <button class="custom-button">
+            Check out my Github Repositories for more projects
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arrow-icon">
+              <path d="M5 12h12M12 6l6 6-6 6" stroke-width="3" stroke="currentColor" fill="none" />
+            </svg>
+          </button>
         </a>
+
+
       </div>
 
 
