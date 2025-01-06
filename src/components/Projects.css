@@ -88,3 +88,13 @@
   border: 2px solid #ffd700; /* Golden border */
   color: #ffd700; /* Change text color to dark */
 }
+
+.custom-button .arrow-icon {
+  margin-left: 10px; /* Add space between text and arrow */
+  font-size: 1.2rem; /* Adjust arrow size */
+  transition: transform 0.3s ease; /* Smooth transition for hover */
+}
+
+.custom-button:hover .arrow-icon {
+  transform: translateX(5px); /* Move the arrow slightly to the right on hover */
+}

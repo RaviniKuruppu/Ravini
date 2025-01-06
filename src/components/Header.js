@@ -20,16 +20,19 @@ function Header() {
       <br></br>
       {/* Container for text and image */}
       <div className="header-content">
-      <img src={RaviniImage} alt="Ravini Kuruppu" className="header-image" />
+        <img src={RaviniImage} alt="Ravini Kuruppu" className="header-image" />
         <div className="header-text">
           {/* <h1>RAVINI KURUPPU</h1> */}
           <h1>
-          <span className="ravini">I'M</span> <span className="kuruppu">RAVINI KURUPPU</span>
+            <span className="ravini">I'M</span> <span className="kuruppu">RAVINI KURUPPU</span>
           </h1>
           <h2>A Full Stack Developer</h2>
-          <button class="custom-button">Check out my CV here</button>
+          <a href="https://drive.google.com/file/d/12Xq6Ejvr9Hsa46QmiOfECwthjMIp74GF/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button class="custom-button">Check out my CV here</button>
+          </a>
 
-          
+
+
           {/* <button class="button-90" >Download CV</button> */}
           <div className="social-icons">
             <a href="https://lk.linkedin.com/in/ravini-kuruppu" target="_blank" rel="noopener noreferrer">
@@ -42,9 +45,9 @@ function Header() {
               <FaMedium />
             </a>
           </div>
-        </div> 
+        </div>
       </div>
-      
+
 
     </header>
   );
