@@ -69,6 +69,11 @@
     transition: transform 0.3s, box-shadow 0.3s;
   }
 
+  @media screen and (max-width: 768px) {
+    .project-image{
+      display: none;
+    }
+  }
 
   
 .custom-button {

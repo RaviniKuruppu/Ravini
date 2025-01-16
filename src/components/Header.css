@@ -139,6 +139,18 @@
 
 /* Responsive styling */
 @media screen and (max-width: 768px) {
+  .header {
+    height: auto; /* Adjust height automatically for smaller screens */
+    padding: 20px; /* Add more padding for spacing */
+  }
+
+  .header h1 {
+    font-size: 2.5rem; /* Reduce the font size of the main heading */
+  }
+
+  .header h2 {
+    font-size: 1.8rem; /* Reduce the font size of the subheading */
+  }
   .menu-icon {
     display: block; /* Show the menu icon */
   }
@@ -165,6 +177,19 @@
   .nav ul li {
     text-align: center;      /* Center align items in dropdown */
     margin: 10px 0;          /* Add spacing between links */
+  }
+
+  .header-content {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center-align text for smaller screens */
+  }
+
+  .header-image {
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+
+  .header-text {
+    width: 100%; /* Ensure text takes full width */
   }
 }
 
