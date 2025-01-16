@@ -1,20 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import RaviniImage from '../images/Ravini.png';
 import { FaLinkedin, FaGithub, FaMedium } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="header">
-      <nav className='nav' >
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#technologies">Technologies</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <nav className="nav">
+        <div className="menu-icon" onClick={toggleMenu}>
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </div>
+        <ul className={menuOpen ? "nav-links active" : "nav-links"}>
+          <li><a href="#about" onClick={toggleMenu}>About</a></li>
+          <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
+          <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+          <li><a href="#technologies" onClick={toggleMenu}>Technologies</a></li>
+          <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
         </ul>
       </nav>
       <br></br>
