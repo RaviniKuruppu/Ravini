@@ -73,7 +73,15 @@
     .project-image{
       display: none;
     }
+    .projects h2 {
+      font-size: 3rem; /* Reduce font size for smaller screens */
+      text-align: center; /* Center-align text */
+      margin-left: 0; /* Remove left margin */
+      margin-bottom: 30px; /* Adjust bottom margin */
+    }
   }
+
+ 
 
   
 .custom-button {

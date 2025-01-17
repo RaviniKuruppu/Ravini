@@ -1,6 +1,5 @@
 .experience {
-    color: #fff;
-    margin-left: 100px; /* Add some spacing from the left edge */
+    color: #fff; 
     background-color: #000;
   }
 
@@ -10,7 +9,18 @@
     font-weight: bold; /* Optional: Make the text bold */
     color: #fff; /* Adjust color as needed */
     margin-bottom: 50px;
+    margin-left: 100px; /* Add some spacing from the left edge */
   }
+
+  @media (max-width: 768px) {
+    .experience h2 {
+      font-size: 3rem; /* Reduce font size for smaller screens */
+      text-align: center; /* Center-align text */
+      margin-left: 0; /* Remove left margin */
+      margin-bottom: 30px; /* Adjust bottom margin */
+    }
+  }
+
 
   
   

@@ -182,14 +182,18 @@
   .header-content {
     flex-direction: column; /* Stack items vertically */
     text-align: center; /* Center-align text for smaller screens */
+    padding-right: 0;
   }
 
   .header-image {
+    margin-right: 0;
+    margin-left: 0;
     margin-bottom: 20px; /* Add spacing below the image */
   }
 
   .header-text {
     width: 100%; /* Ensure text takes full width */
+    text-align: center; 
   }
 }
 
